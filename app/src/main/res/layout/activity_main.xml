@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/hardini" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Hardini Pangestuti"
+        android:id="@+id/mynama"
+        android:textSize="20sp"
+        android:layout_marginTop="175dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="A11.2020.12945"
+        android:id="@+id/mynim"
+        android:layout_below="@+id/mynama"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="A11.4320"
+        android:id="@+id/mykelas"
+        android:layout_below="@+id/mynim"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="S1 Teknik Informatika"
+        android:id="@+id/myjurusan"
+        android:layout_below="@+id/mykelas"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Perumkorpri Klipang Blok Q 4 no 5"
+        android:id="@+id/myalamat"
+        android:layout_below="@+id/myjurusan"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Contact Person"
+        android:id="@+id/cont"
+        android:layout_below="@+id/myalamat"
+        android:textSize="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="10sp"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:id="@+id/logoemail"
+        android:src="@drawable/emaillogo"
+        android:layout_below="@+id/cont"
+        android:layout_marginLeft="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text="111202012945@mhs.dinud.ac.id"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="65sp"
+        android:layout_below="@id/cont"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:id="@+id/logowa"
+        android:src="@drawable/walogo"
+        android:layout_below="@+id/logoemail"
+        android:layout_marginLeft="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomor"
+        android:text="085741634509"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="65sp"
+        android:layout_below="@+id/email"
+        />
+
+</RelativeLayout>
+
